@@ -23,8 +23,6 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 baseUrl     = "http://deck.investmanifest.club"
 adminEmail  = "dakdownes@gmail.com" #person who needs to be notified if somethings not working
 scribdEmbed = "https://www.scribd.com/document/629013941/Manifest-Pitch-Deck-Draft?secret_password=3XWMFGu0pceICcavTKVc" #this is your scribd embed code
-mixpEmbed   = """ bla bla bla """ #this is your mixpanel embed code
-
 
 class Viewers(db.Model):
   email    = db.StringProperty(multiline=False)
@@ -61,7 +59,7 @@ class Deck(webapp.RequestHandler):
             'baseurl':     baseUrl,
             'adminEmail':  adminEmail,
             'scribdEmbed': scribdEmbed,
-            'mixpEmbed':   mixpEmbed,
+            
      
         }
 
