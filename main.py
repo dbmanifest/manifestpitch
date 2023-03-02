@@ -20,8 +20,8 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 # Global variables #
 ####################
 
-baseUrl     = "http://example.com"
-adminEmail  = "admin@example.com" #person who needs to be notified if somethings not working
+baseUrl     = "http://deck.investmanifest.club"
+adminEmail  = "dakdownes@gmail.com" #person who needs to be notified if somethings not working
 scribdEmbed = """ bla bla bla """ #this is your scribd embed code
 mixpEmbed   = """ bla bla bla """ #this is your mixpanel embed code
 olarkEmbed  = """ bla bla bla """ #this is your olark embed code
